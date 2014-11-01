@@ -58,12 +58,15 @@
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
 {
     self.currLoc = [locations lastObject];
+    if (self.currLoc == nil)
+        return;
     
         GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:self.currLoc.coordinate.latitude
                                                                 longitude:self.currLoc.coordinate.longitude
                                                                      zoom:6];
         
         mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+    self.view = mapView_;
     
     NSLog(@"%@ fffff", self.currLoc);
     // Creates a marker in the center of the map

@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1443C4811A051FAE00D260E1 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1443C4801A051FAE00D260E1 /* GoogleMaps.framework */; };
+		14A3F3FA1A0509B80022BD4B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3F3F91A0509B80022BD4B /* AVFoundation.framework */; };
+		14A3F3FC1A0509C10022BD4B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3F3FB1A0509C10022BD4B /* CoreData.framework */; };
+		14A3F3FE1A0509C80022BD4B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3F3FD1A0509C80022BD4B /* CoreLocation.framework */; };
+		14A3F4001A0509CF0022BD4B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3F3FF1A0509CF0022BD4B /* CoreText.framework */; };
+		14A3F4021A0509D60022BD4B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3F4011A0509D60022BD4B /* GLKit.framework */; };
+		14A3F4041A0509DC0022BD4B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3F4031A0509DC0022BD4B /* ImageIO.framework */; };
+		14A3F4061A0509E60022BD4B /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3F4051A0509E60022BD4B /* libc++.dylib */; };
+		14A3F4081A0509F00022BD4B /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3F4071A0509F00022BD4B /* libicucore.dylib */; };
+		14A3F40A1A0509FA0022BD4B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3F4091A0509FA0022BD4B /* libz.dylib */; };
+		14A3F40C1A050A020022BD4B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3F40B1A050A020022BD4B /* OpenGLES.framework */; };
+		14A3F40E1A050A080022BD4B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3F40D1A050A080022BD4B /* QuartzCore.framework */; };
+		14A3F4101A050A0F0022BD4B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A3F40F1A050A0F0022BD4B /* SystemConfiguration.framework */; };
 		DB4F02211A047DE30035FF14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F02201A047DE30035FF14 /* main.m */; };
 		DB4F02241A047DE30035FF14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F02231A047DE30035FF14 /* AppDelegate.m */; };
 		DB4F02271A047DE30035FF14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F02261A047DE30035FF14 /* ViewController.m */; };
@@ -27,6 +40,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1443C4801A051FAE00D260E1 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		14A3F3F91A0509B80022BD4B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		14A3F3FB1A0509C10022BD4B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		14A3F3FD1A0509C80022BD4B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		14A3F3FF1A0509CF0022BD4B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		14A3F4011A0509D60022BD4B /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		14A3F4031A0509DC0022BD4B /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		14A3F4051A0509E60022BD4B /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		14A3F4071A0509F00022BD4B /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		14A3F4091A0509FA0022BD4B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		14A3F40B1A050A020022BD4B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		14A3F40D1A050A080022BD4B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		14A3F40F1A050A0F0022BD4B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		DB4F021B1A047DE30035FF14 /* SMS Boomerang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SMS Boomerang.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4F021F1A047DE30035FF14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB4F02201A047DE30035FF14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +73,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A3F4101A050A0F0022BD4B /* SystemConfiguration.framework in Frameworks */,
+				14A3F40E1A050A080022BD4B /* QuartzCore.framework in Frameworks */,
+				14A3F40C1A050A020022BD4B /* OpenGLES.framework in Frameworks */,
+				14A3F40A1A0509FA0022BD4B /* libz.dylib in Frameworks */,
+				14A3F4081A0509F00022BD4B /* libicucore.dylib in Frameworks */,
+				14A3F4061A0509E60022BD4B /* libc++.dylib in Frameworks */,
+				14A3F4041A0509DC0022BD4B /* ImageIO.framework in Frameworks */,
+				14A3F4021A0509D60022BD4B /* GLKit.framework in Frameworks */,
+				14A3F4001A0509CF0022BD4B /* CoreText.framework in Frameworks */,
+				1443C4811A051FAE00D260E1 /* GoogleMaps.framework in Frameworks */,
+				14A3F3FE1A0509C80022BD4B /* CoreLocation.framework in Frameworks */,
+				14A3F3FC1A0509C10022BD4B /* CoreData.framework in Frameworks */,
+				14A3F3FA1A0509B80022BD4B /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +99,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14A3F3F41A0506950022BD4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DB4F02121A047DE30035FF14 = {
 			isa = PBXGroup;
 			children = (
+				14A3F40F1A050A0F0022BD4B /* SystemConfiguration.framework */,
+				14A3F40D1A050A080022BD4B /* QuartzCore.framework */,
+				14A3F40B1A050A020022BD4B /* OpenGLES.framework */,
+				14A3F4091A0509FA0022BD4B /* libz.dylib */,
+				14A3F4071A0509F00022BD4B /* libicucore.dylib */,
+				14A3F4051A0509E60022BD4B /* libc++.dylib */,
+				14A3F4031A0509DC0022BD4B /* ImageIO.framework */,
+				14A3F4011A0509D60022BD4B /* GLKit.framework */,
+				14A3F3FF1A0509CF0022BD4B /* CoreText.framework */,
+				14A3F3FD1A0509C80022BD4B /* CoreLocation.framework */,
+				14A3F3FB1A0509C10022BD4B /* CoreData.framework */,
+				14A3F3F91A0509B80022BD4B /* AVFoundation.framework */,
 				DB4F021D1A047DE30035FF14 /* SMS Boomerang */,
 				DB4F02371A047DE30035FF14 /* SMS BoomerangTests */,
 				DB4F021C1A047DE30035FF14 /* Products */,
+				1443C4801A051FAE00D260E1 /* GoogleMaps.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +140,7 @@
 		DB4F021D1A047DE30035FF14 /* SMS Boomerang */ = {
 			isa = PBXGroup;
 			children = (
+				14A3F3F41A0506950022BD4B /* Frameworks */,
 				DB4F02221A047DE30035FF14 /* AppDelegate.h */,
 				DB4F02231A047DE30035FF14 /* AppDelegate.m */,
 				DB4F02251A047DE30035FF14 /* ViewController.h */,
@@ -168,7 +228,6 @@
 				TargetAttributes = {
 					DB4F021A1A047DE30035FF14 = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = 8TKRWQTPVP;
 					};
 					DB4F02331A047DE30035FF14 = {
 						CreatedOnToolsVersion = 6.1;
@@ -335,6 +394,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -345,9 +405,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMS",
+					Boomerang,
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "SMS Boomerang/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -356,9 +424,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMS",
+					Boomerang,
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "SMS Boomerang/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -415,6 +491,7 @@
 				DB4F02401A047DE30035FF14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB4F02411A047DE30035FF14 /* Build configuration list for PBXNativeTarget "SMS BoomerangTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +500,7 @@
 				DB4F02431A047DE30035FF14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
